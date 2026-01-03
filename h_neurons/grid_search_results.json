@@ -1,0 +1,67 @@
+{
+  "all_models": [
+    {
+      "C": 0.01,
+      "train_acc": 0.5,
+      "test_acc": 0.5,
+      "test_auc": 0.5,
+      "n_positive": 0,
+      "sparsity_%": 0.0
+    },
+    {
+      "C": 0.05,
+      "train_acc": 0.965625,
+      "test_acc": 0.775,
+      "test_auc": 0.82125,
+      "n_positive": 64,
+      "sparsity_%": 0.011574074074074075
+    },
+    {
+      "C": 0.1,
+      "train_acc": 1.0,
+      "test_acc": 0.75,
+      "test_auc": 0.81375,
+      "n_positive": 137,
+      "sparsity_%": 0.024775752314814815
+    },
+    {
+      "C": 0.2,
+      "train_acc": 1.0,
+      "test_acc": 0.75,
+      "test_auc": 0.816875,
+      "n_positive": 252,
+      "sparsity_%": 0.045572916666666664
+    },
+    {
+      "C": 0.5,
+      "train_acc": 1.0,
+      "test_acc": 0.7375,
+      "test_auc": 0.8293750000000001,
+      "n_positive": 325,
+      "sparsity_%": 0.058774594907407406
+    },
+    {
+      "C": 1.0,
+      "train_acc": 1.0,
+      "test_acc": 0.7375,
+      "test_auc": 0.824375,
+      "n_positive": 512,
+      "sparsity_%": 0.0925925925925926
+    }
+  ],
+  "best_model": {
+    "C": 0.05,
+    "penalty": "l1",
+    "solver": "liblinear",
+    "train_accuracy": 0.965625,
+    "test_accuracy": 0.775,
+    "test_auc": 0.82125
+  },
+  "architecture": {
+    "model_name": "meta-llama/Llama-2-13b-chat-hf",
+    "num_layers": 40,
+    "intermediate_size": 13824,
+    "hidden_size": 5120,
+    "total_neurons": 552960
+  }
+}
